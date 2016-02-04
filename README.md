@@ -19,3 +19,7 @@ Arguments:
   
 Example:
   piClusterBuster -i myfile.fastq -x reference_genome.fa -n 15 -ncbidb ./nr -p 6 -gid MySpecies
+
+
+
+***** Continue Full Instructions *****
