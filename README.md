@@ -8,7 +8,7 @@ Arguments:
   -b              - input SAM/BAM file (will override input fastq file)
   -x              - reference genome
   -n              - indicate the number of piRNA clusters to analyze
-  -ncbidb         - indicate path to the NCBI nt database or \"NA\" if you would like to have piClusterBuster to retrieve the download
+  -ncbidb         - indicate path to the NCBI nt database or "NA" if you would like to have piClusterBuster to retrieve the download
   -gn             - Organism-specific Gene Set
   -te             - Organism-specific Transposable Element Set
   -p              - indicate number of processors to use
