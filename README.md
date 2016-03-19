@@ -36,14 +36,12 @@ then change to a directory in your path. FOR EXAMPLE (only):
 Create a symbolic link to the ant executable
 	ln -s apache-ant-1.9.6/bin/ant
 
-
-
 ****** This is a modified excerpt from the F-seq README.txt file ******
 
 ~/piClusterBuster$ cd F-seq/
 ~/piClusterBuster/F-seq$ ant
 
-# This will build F-seq and package it in the dist~ folder. To then run F-seq:
+This will build F-seq and package it in the dist~ folder. To then run F-seq:
 ~/piClusterBuster/F-seq$ cd dist~/
 ~/piClusterBuster/F-seq/dist~$ tar -xvf fseq.tgz
 ~/piClusterBuster/F-seq/dist~$ cd fseq/bin/
