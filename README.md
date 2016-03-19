@@ -72,6 +72,7 @@ Change to a directory in your path. FOR EXAMPLE (only):
 ```cd /usr/local/bin```
 
 Create a symbolic link to the fseq executable
+
 ```ln -s ~/piClusterBuster/F-seq/dist~/fseq/bin/fseq```
 
 ****** END F-seq excerpt ******
