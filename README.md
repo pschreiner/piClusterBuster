@@ -29,25 +29,24 @@
 
 ###Apache Ant Java
 If you don't have the [Apache Ant Java] (http://ant.apache.org/) library (-bash: ant: command not found), you can download it by:
-'''	
-wget http://apache.mirrors.hoobly.com//ant/binaries/apache-ant-1.9.6-bin.tar.gz
 
-tar -zxvf apache-ant-1.9.6-bin.tar.gz
-'''
+'wget http://apache.mirrors.hoobly.com//ant/binaries/apache-ant-1.9.6-bin.tar.gz'
 
-Now load Apache Ant into your path
+'tar -zxvf apache-ant-1.9.6-bin.tar.gz'
+
+
+####Now load Apache Ant into your path
 You can find your path via
-'''
-echo $PATH
-'''
+
+'echo $PATH'
+
 then change to a directory in your path. FOR EXAMPLE (only):
-'''
-cd /usr/local/bin
-'''
+
+'cd /usr/local/bin'
+
 Create a symbolic link to the ant executable
-'''
-ln -s apache-ant-1.9.6/bin/ant
-'''
+
+'ln -s apache-ant-1.9.6/bin/ant'
 
 ###F-Seq
 piClusterBuster uses [F-Seq] (http://fureylab.web.unc.edu/software/fseq/) software to make piRNA cluster calls based on sRNA density at a particular loci.  However, custom piRNA clusters can be analyzed by providing a BED file.
@@ -62,14 +61,16 @@ This will build F-seq and package it in the dist~ folder. To then run F-seq:
 ~/piClusterBuster/F-seq/dist~$ cd fseq/bin/
 ~/piClusterBuster/F-seq/dist~/fseq/bin$ ./fseq
 
-Make sure 'bin/fseq' is executable:
-chmod 0755 bin/fseq
+######Make sure 'bin/fseq' is executable:
 
-Load F-seq into your path, as done for ant above
-Change to a directory in your path. FOR EXAMPLE (only):
-cd /usr/local/bin
+'chmod 0755 bin/fseq'
 
-Create a symbolic link to the fseq executable
-ln -s ~/piClusterBuster/F-seq/dist~/fseq/bin/fseq
+######Load F-seq into your path, as done for ant above
+######Change to a directory in your path. FOR EXAMPLE (only):
+
+'cd /usr/local/bin'
+
+######Create a symbolic link to the fseq executable
+'ln -s ~/piClusterBuster/F-seq/dist~/fseq/bin/fseq'
 
 ****** END F-seq excerpt ******
