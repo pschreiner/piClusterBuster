@@ -31,16 +31,23 @@
 If you don't have the [Apache Ant Java] (http://ant.apache.org/) library (-bash: ant: command not found), you can download it by:
 '''	
 wget http://apache.mirrors.hoobly.com//ant/binaries/apache-ant-1.9.6-bin.tar.gz
+
 tar -zxvf apache-ant-1.9.6-bin.tar.gz
 '''
 
 Now load Apache Ant into your path
 You can find your path via
-	echo $PATH
+'''
+echo $PATH
+'''
 then change to a directory in your path. FOR EXAMPLE (only):
-	cd /usr/local/bin
+'''
+cd /usr/local/bin
+'''
 Create a symbolic link to the ant executable
-	ln -s apache-ant-1.9.6/bin/ant
+'''
+ln -s apache-ant-1.9.6/bin/ant
+'''
 
 ###F-Seq
 piClusterBuster uses [F-Seq] (http://fureylab.web.unc.edu/software/fseq/) software to make piRNA cluster calls based on sRNA density at a particular loci.  However, custom piRNA clusters can be analyzed by providing a BED file.
