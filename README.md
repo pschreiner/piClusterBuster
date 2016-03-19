@@ -1,5 +1,5 @@
-# piClusterBuster
-A Program for Automated piRNA Cluster Characterization
+#piClusterBuster
+##A Program for Automated piRNA Cluster Characterization
 
 	piClusterBuster v1.0
 		Arguments:
@@ -20,13 +20,19 @@ A Program for Automated piRNA Cluster Characterization
 	Example:
 	piClusterBuster -fq myfile.fastq -x reference_genome.fa -gndb Genes.fa -tedb TEs.fa -ncbidb nt -n 5 -p 6 -gid MySpecies --qsub
 
+##Required Files
+1. FASTQ, BAM, or BED file
+2. Reference Genome
+3. Organism-specific Gene Set
 
+##Installation
 
-***** Continue Full Instructions *****
-
-If you don't have the Apache Ant Java library (-bash: ant: command not found), you can download it by:
-	wget http://apache.mirrors.hoobly.com//ant/binaries/apache-ant-1.9.6-bin.tar.gz
-	tar -zxvf apache-ant-1.9.6-bin.tar.gz
+###Apache Ant Java
+If you don't have the [Apache Ant Java] (http://ant.apache.org/) library (-bash: ant: command not found), you can download it by:
+'''	
+wget http://apache.mirrors.hoobly.com//ant/binaries/apache-ant-1.9.6-bin.tar.gz
+tar -zxvf apache-ant-1.9.6-bin.tar.gz
+'''
 
 Now load Apache Ant into your path
 You can find your path via
@@ -36,8 +42,8 @@ then change to a directory in your path. FOR EXAMPLE (only):
 Create a symbolic link to the ant executable
 	ln -s apache-ant-1.9.6/bin/ant
 
+###F-seq
 ****** This is a modified excerpt from the F-seq README.txt file ******
-
 ~/piClusterBuster$ cd F-seq/
 ~/piClusterBuster/F-seq$ ant
 
