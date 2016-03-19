@@ -24,16 +24,17 @@ A Program for Automated piRNA Cluster Characterization
 
 ***** Continue Full Instructions *****
 
-# If you don't have the Apache Ant Java library (-bash: ant: command not found), you can download it by:
-wget http://apache.mirrors.hoobly.com//ant/binaries/apache-ant-1.9.6-bin.tar.gz
-tar -zxvf apache-ant-1.9.6-bin.tar.gz
-# Now load Apache Ant into your path
-# You can find your path via
-echo $PATH
-# then change to a directory in your path. FOR EXAMPLE (only):
-cd /usr/local/bin
-# Create a symbolic link to the ant executable
-ln -s apache-ant-1.9.6/bin/ant
+If you don't have the Apache Ant Java library (-bash: ant: command not found), you can download it by:
+	wget http://apache.mirrors.hoobly.com//ant/binaries/apache-ant-1.9.6-bin.tar.gz
+	tar -zxvf apache-ant-1.9.6-bin.tar.gz
+
+Now load Apache Ant into your path
+You can find your path via
+	echo $PATH
+then change to a directory in your path. FOR EXAMPLE (only):
+	cd /usr/local/bin
+Create a symbolic link to the ant executable
+	ln -s apache-ant-1.9.6/bin/ant
 
 
 
