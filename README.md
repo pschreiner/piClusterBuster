@@ -43,7 +43,7 @@ Create a symbolic link to the ant executable
 	ln -s apache-ant-1.9.6/bin/ant
 
 ###F-Seq
-piClusterBuster uses F-Seq software to make piRNA cluster calls based on sRNA density at a particular loci.  However, custom piRNA clusters can be analyzed by providing a BED file.
+piClusterBuster uses [F-Seq] (http://fureylab.web.unc.edu/software/fseq/) software to make piRNA cluster calls based on sRNA density at a particular loci.  However, custom piRNA clusters can be analyzed by providing a BED file.
 
 ****** This is a modified excerpt from the F-seq README.txt file ******
 ~/piClusterBuster$ cd F-seq/
