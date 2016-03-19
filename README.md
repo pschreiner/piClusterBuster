@@ -42,7 +42,9 @@ then change to a directory in your path. FOR EXAMPLE (only):
 Create a symbolic link to the ant executable
 	ln -s apache-ant-1.9.6/bin/ant
 
-###F-seq
+###F-Seq
+piClusterBuster uses F-Seq software to make piRNA cluster calls based on sRNA density at a particular loci.  However, custom piRNA clusters can be analyzed by providing a BED file.
+
 ****** This is a modified excerpt from the F-seq README.txt file ******
 ~/piClusterBuster$ cd F-seq/
 ~/piClusterBuster/F-seq$ ant
