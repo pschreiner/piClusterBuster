@@ -62,16 +62,16 @@ This will build F-seq and package it in the dist~ folder. To then run F-seq:
 ~/piClusterBuster/F-seq/dist~$ cd fseq/bin/
 ~/piClusterBuster/F-seq/dist~/fseq/bin$ ./fseq
 ```
-######Make sure 'bin/fseq' is executable:
+Make sure 'bin/fseq' is executable:
 
 ```chmod 0755 bin/fseq```
 
-######Load F-seq into your path, as done for ant above
-######Change to a directory in your path. FOR EXAMPLE (only):
+#Load F-seq into your path, as done for ant above
+Change to a directory in your path. FOR EXAMPLE (only):
 
 ```cd /usr/local/bin```
 
-######Create a symbolic link to the fseq executable
+Create a symbolic link to the fseq executable
 ```ln -s ~/piClusterBuster/F-seq/dist~/fseq/bin/fseq```
 
 ****** END F-seq excerpt ******
