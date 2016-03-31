@@ -20,10 +20,25 @@
 	Example:
 	piClusterBuster -fq myfile.fastq -x reference_genome.fa -gndb Genes.fa -tedb TEs.fa -ncbidb nt -n 5 -p 6 -gid MySpecies --qsub
 
+##Description
+
+To be run on Linux... BLAH BLAH FINISH
+
 ##Required Files
 1. FASTQ, BAM, or BED file
 2. Reference Genome
 3. Organism-specific Gene Set
+
+##Required Software
+1. Bowtie2
+2. RepeatMasker
+2. CENSOR
+3. NCBI-BLAST 
+	- versions 2.2.26 & 2.2.27
+4. Bedtools
+###Optional
+5. F-seq
+6. Samtools
 
 ##Installation
 
