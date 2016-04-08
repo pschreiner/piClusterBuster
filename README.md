@@ -28,6 +28,10 @@ To be run on Linux... BLAH BLAH FINISH
 1. FASTQ, BAM, or BED file
 2. Reference Genome
 3. Organism-specific Gene Set
+4. 
+###Optional Files
+1. Gene-GO Association File
+	- Made available by the [Gene Ontology Consortium] (http://geneontology.org/page/download-annotations)
 
 ##Required Software
 1. Bowtie2
@@ -36,7 +40,8 @@ To be run on Linux... BLAH BLAH FINISH
 3. NCBI-BLAST 
 	- versions 2.2.26 & 2.2.27
 4. Bedtools
-###Optional
+
+###Optional Software
 5. F-seq
 6. Samtools
 
