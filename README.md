@@ -28,7 +28,8 @@ To be run on Linux... BLAH BLAH FINISH
 1. FASTQ, BAM, or BED file
 2. Reference Genome
 3. Organism-specific Gene Set
-4. 
+	- Gene names must be in Entrez format for gene summary to be completed
+
 ###Optional Files
 1. Gene-GO Association File
 	- Made available by the [Gene Ontology Consortium] (http://geneontology.org/page/download-annotations)
