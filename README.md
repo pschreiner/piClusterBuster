@@ -53,11 +53,11 @@ piClusterBusteR has been utilized to compare the composition of top piRNA genera
 	- Made available by the [Gene Ontology Consortium] (http://geneontology.org/page/download-annotations)
 
 ##Required Software
-1. BLAST+ (versions 2.2.7 or higher)
-2. CENSOR
-3. R software
-4. RepeatMasker
-5. SAMtools
+1. [BLAST+] (https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
+2. [CENSOR] (http://www.girinst.org/downloads/software/censor/)
+3. [R software] (https://www.r-project.org/)
+4. [RepeatMasker] (http://www.repeatmasker.org/RMDownload.html)
+5. [SAMtools] (http://www.htslib.org/)
 
 ###Optional Software
 6. Bowtie2 (necessary with FASTQ file input)
