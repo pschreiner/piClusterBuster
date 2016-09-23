@@ -64,14 +64,14 @@ piClusterBusteR has been utilized to compare the composition of top piRNA genera
 7. proTRAC (necessary if piRNA cluster definitions aren't already made)
 
 ## R Packages Utilized
-1. Biostrings
-2. doMC
-3. GenomicRanges
-4. gProfileR
-5. Plyr
-6. qcc
-7. seqinr
-8. systemPipeR
+1. [Biostrings] (https://bioconductor.org/packages/release/bioc/html/Biostrings.html)
+2. [doMC] (https://cran.r-project.org/web/packages/doMC/index.html)
+3. [GenomicRanges] (https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html)
+4. [gProfileR] (https://cran.r-project.org/web/packages/gProfileR/gProfileR.pdf)
+5. [plyr] (https://cran.r-project.org/web/packages/plyr/plyr.pdf)
+6. [qcc] (https://cran.r-project.org/web/packages/qcc/qcc.pdf)
+7. [seqinr] (http://seqinr.r-forge.r-project.org/)
+8. [systemPipeR] (https://bioconductor.org/packages/release/bioc/html/systemPipeR.html)
 
 ##Installation
 1. Download zip file or git clone
