@@ -1,4 +1,4 @@
-#piClusterBuster
+#piClusterBusteR
 ##Description
 piClusterBusteR is a series of R and bash scripts that interact together, along with other standalone programs, to perform piRNA cluster characterization and annotation.  piClusterBusteR is a software tool that accurately, automatically, and efficiently describes the contents of piRNA clusters in any biological system that utilizes the piRNA pathway.  piClusterBusteR performs nested annotation of piRNA cluster contents to ensure high-quality characterization, provide a quantitative representation of piRNA cluster composition by feature, and make available annotated and unannotated piRNA cluster sequence that can be utilized for downstream analysis. The data necessary to run piClusterBusteR and the skills necessary to execute this software on any species of interest are not overly burdensome for biological researchers.
 
