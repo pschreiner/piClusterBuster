@@ -1,4 +1,8 @@
 #piClusterBuster
+##Description
+piClusterBusteR is a series of R and bash scripts that interact together, along with other standalone programs, to perform piRNA cluster characterization and annotation.  piClusterBusteR is a software tool that accurately, automatically, and efficiently describes the contents of piRNA clusters in any biological system that utilizes the piRNA pathway.  piClusterBusteR performs nested annotation of piRNA cluster contents to ensure high-quality characterization, provide a quantitative representation of piRNA cluster composition by feature, and make available annotated and unannotated piRNA cluster sequence that can be utilized for downstream analysis. The data necessary to run piClusterBusteR and the skills necessary to execute this software on any species of interest are not overly burdensome for biological researchers.
+piClusterBusteR has been utilized to compare the composition of top piRNA generating loci amongst Metazoan species.  Characterization and quantification of cluster composition allows for comparison within piRNA clusters of the same species and between piRNA clusters of different species. 
+
 ##A Program for Automated piRNA Cluster Characterization
 
         piClusterBuster v1.0
@@ -35,80 +39,39 @@
         Example:
         piClusterBuster -fq myfile.fastq -x reference_genome.fa -gndb Genes.fa -tedb TEs.fa -ncbidb nt -n 5 -p 6 -gid MySpecies --qsub
         
-##Description
-
-To be run on Linux... BLAH BLAH FINISH
-
 ##Required Files
-1. FASTQ, BAM, or BED file
+1. Data file (FASTQ, BAM, FASTA, or BED file)
 2. Reference Genome
 3. Organism-specific Gene Set
 	- Gene names must be in Entrez format for gene summary to be completed
+4. Transposable Element Set
 
 ###Optional Files
-1. Gene-GO Association File
+1. NCBI nucleotide database (ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/nt.gz)
+2. Gene-GO Association File
 	- Made available by the [Gene Ontology Consortium] (http://geneontology.org/page/download-annotations)
 
 ##Required Software
-1. Bowtie2
-2. RepeatMasker
+1. BLAST+ (versions 2.2.7 or higher)
 2. CENSOR
-3. NCBI-BLAST 
-	- versions 2.2.26 & 2.2.27
-4. Bedtools
+3. R software
+4. RepeatMasker
+5. SAMtools
 
 ###Optional Software
-5. F-seq
-6. Samtools
+6. Bowtie2 (necessary with FASTQ file input)
+7. proTRAC (necessary if piRNA cluster definitions aren't already made)
+
+## R Packages Utilized
+1. Biostrings
+2. doMC
+3. GenomicRanges
+4. gProfileR
+5. Plyr
+6. qcc
+7. seqinr
+8. systemPipeR
 
 ##Installation
-
-###Apache Ant Java
-If you don't have the [Apache Ant Java] (http://ant.apache.org/) library (-bash: ant: command not found), you can download it by:
-
-```
-wget http://apache.mirrors.hoobly.com//ant/binaries/apache-ant-1.9.6-bin.tar.gz
-tar -zxvf apache-ant-1.9.6-bin.tar.gz
-```
-
-####Now load Apache Ant into your path
-You can find your path via
-
-```echo $PATH```
-
-then change to a directory in your path. FOR EXAMPLE (only):
-
-```cd /usr/local/bin```
-
-Create a symbolic link to the ant executable
-
-```ln -s apache-ant-1.9.6/bin/ant```
-
-###F-Seq
-piClusterBuster uses [F-Seq] (http://fureylab.web.unc.edu/software/fseq/) software to make piRNA cluster calls based on sRNA density at a particular loci.  However, custom piRNA clusters can be analyzed by providing a BED file.
-
-****** This is a modified excerpt from the F-seq README.txt file ******
-```
-~/piClusterBuster$ cd F-seq/
-~/piClusterBuster/F-seq$ ant
-
-This will build F-seq and package it in the dist~ folder. To then run F-seq:
-~/piClusterBuster/F-seq$ cd dist~/
-~/piClusterBuster/F-seq/dist~$ tar -xvf fseq.tgz
-~/piClusterBuster/F-seq/dist~$ cd fseq/bin/
-~/piClusterBuster/F-seq/dist~/fseq/bin$ ./fseq
-```
-Make sure 'bin/fseq' is executable:
-
-```chmod 0755 bin/fseq```
-
-#Load F-seq into your path, as done for ant above
-Change to a directory in your path. FOR EXAMPLE (only):
-
-```cd /usr/local/bin```
-
-Create a symbolic link to the fseq executable
-
-```ln -s ~/piClusterBuster/F-seq/dist~/fseq/bin/fseq```
-
-****** END F-seq excerpt ******
+1. Download zip file or git clone
+2. From the main folder of piClusterBusteR, run "./piClusterBusteR" for the usage statement
