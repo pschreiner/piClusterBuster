@@ -55,12 +55,9 @@ piClusterBusteR has been utilized to compare the composition of top piRNA genera
 2. [CENSOR] (http://www.girinst.org/downloads/software/censor/)
 3. [R software] (https://www.r-project.org/)
 4. [RepeatMasker] (http://www.repeatmasker.org/RMDownload.html)
-5. [SAMtools] (http://www.htslib.org/)
 
 ###Optional Software
-6. [Bowtie2] (http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
-	- necessary with FASTQ file input
-7. [proTRAC] (http://www.smallrnagroup.uni-mainz.de/software.html)
+5. [proTRAC] (http://www.smallrnagroup.uni-mainz.de/software.html)
 	- necessary if piRNA cluster definitions aren't already made)
 
 ## R Packages Utilized
