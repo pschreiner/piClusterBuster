@@ -13,8 +13,6 @@ piClusterBusteR has been utilized to compare the composition of top piRNA genera
                                                 + FASTA file headers must be in the format -> chrom:start..end
                                                         (e.g. X:21632661..21747236)
                         -fq             - character, input FASTQ file (will override input FASTA file)
-                        -bam            - character, input BAM file (will override input FASTQ file)
-                                                + BAM file must be sorted and indexed
                         -bed            - input BED file (will override fastq or BAM file)
 
                         Databases:
