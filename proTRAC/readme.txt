@@ -1,3 +1,9 @@
+## Credit to: 
+## Rosenkranz D, Zischler H. proTRAC - a software for probabilistic piRNA cluster detection, visualization and analysis. BMC Bioinformatics 2012 13(1):5.
+## https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-13-5
+## https://sourceforge.net/projects/protrac/
+## http://www.smallrnagroup.uni-mainz.de/software.html
+
 latest version: 2.1
 
 proTRAC 2.0 and later versions do no longer calculate probabilities
