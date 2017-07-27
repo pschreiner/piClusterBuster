@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -l walltime=72:00:00,nodes=1:ppn=8 -j oe -N piClusterBuster
+
+dt=`date '+%m_%d_%Y-%H:%M:%S'`
+log="pCB_run-${dt}.log"
+
+if [ "$#" == 0  ]; then bash ./bin/usage.sh
+elif [[ "$@" == "--help" ]] || [[ "$@" == "-help" ]] || [[ "$@" == "-h" ]] || [[ "$@" == "-v" ]] || [[ "$@" == "--version" ]] || [[ "$@" == "-version" ]]
+then bash ./bin/usage.sh
+else Rscript --vanilla --verbose ./bin/piClusterBuster.R $@ > $log 2>&1
+fi
