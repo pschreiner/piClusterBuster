@@ -1,7 +1,0 @@
-#!/bin/bash
-#PBS -q highmem -l mem=32gb -l walltime=500:00:00,nodes=1:ppn=8 -j oe -N piClusterBuster
-
-if [ "$#" == 0  ]; then Rscript usage.R
-elif [ "$@" == "--help" ] || [ "$@" == "-help" ] || [ "$@" == "-h" ] || [ "$@" == "-v" ] || [ "$@" == "--version" ] || [ "$@" == "-version" ]; then Rscript usage.R
-else Rscript --vanilla --verbose piClusterBuster-v0.3.R $@ > piClusterBuster-v0.3.Rout
-fi
