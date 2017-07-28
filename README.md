@@ -6,7 +6,7 @@ piClusterBusteR is a series of R and bash scripts that interact together, along 
 
 piClusterBusteR has been utilized to compare the composition of top piRNA generating loci amongst Metazoan species.  Characterization and quantification of cluster composition allows for comparison within piRNA clusters of the same species and between piRNA clusters of different species. 
 
-:Software for Automated Classification and Characterization of piRNA Cluster Loci:
+<center>Software for Automated Classification and Characterization of piRNA Cluster Loci:</center>
  --------------------------------------------------------------------------------
 
         piClusterBuster v1.0
