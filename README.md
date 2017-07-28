@@ -61,7 +61,7 @@ Required Software
 3. [R software](https://www.r-project.org/)
 4. [RepeatMasker](http://www.repeatmasker.org/RMDownload.html)
 
-###Optional Software
+Optional Software:
 5. [proTRAC](http://www.smallrnagroup.uni-mainz.de/software.html)
 	- necessary if piRNA cluster definitions aren't already made)
 
