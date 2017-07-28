@@ -6,8 +6,8 @@ piClusterBusteR is a series of R and bash scripts that interact together, along 
 
 piClusterBusteR has been utilized to compare the composition of top piRNA generating loci amongst Metazoan species.  Characterization and quantification of cluster composition allows for comparison within piRNA clusters of the same species and between piRNA clusters of different species. 
 
-##Software for Automated Classification and Characterization of piRNA Cluster Loci
-
+Software for Automated Classification and Characterization of piRNA Cluster Loci
+--------------------------------------------------------------------------------
         piClusterBuster v1.0
                 Required:
                         Data input file (Only provide 1 of the 4 options):
@@ -40,19 +40,21 @@ piClusterBusteR has been utilized to compare the composition of top piRNA genera
         Example:
         piClusterBuster -fq myfile.fastq -x reference_genome.fa -gndb Genes.fa -tedb TEs.fa -ncbidb nt -n 5 -p 6 -gid MySpecies --qsub
         
-##Required Files
+Required Files
+--------------
 1. Data file (FASTQ, BAM, FASTA, or BED file)
 2. Reference Genome
 3. Organism-specific Gene Set
 	- Gene names must be in Entrez format for gene summary to be completed
 4. Transposable Element Set
 
-###Optional Files
+Optional Files:
 1. NCBI nucleotide database (ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/nt.gz)
 2. Gene-GO Association File
 	- Made available by the [Gene Ontology Consortium] (http://geneontology.org/page/download-annotations)
 
-##Required Software
+Required Software
+-----------------
 1. [BLAST+] (https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
 2. [CENSOR] (http://www.girinst.org/downloads/software/censor/)
 3. [R software] (https://www.r-project.org/)
@@ -62,7 +64,8 @@ piClusterBusteR has been utilized to compare the composition of top piRNA genera
 5. [proTRAC] (http://www.smallrnagroup.uni-mainz.de/software.html)
 	- necessary if piRNA cluster definitions aren't already made)
 
-## R Packages Utilized
+R Packages Utilized
+-------------------
 1. [Biostrings] (https://bioconductor.org/packages/release/bioc/html/Biostrings.html)
 2. [doMC] (https://cran.r-project.org/web/packages/doMC/index.html)
 3. [GenomicRanges] (https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html)
@@ -72,6 +75,7 @@ piClusterBusteR has been utilized to compare the composition of top piRNA genera
 7. [seqinr] (http://seqinr.r-forge.r-project.org/)
 8. [systemPipeR] (https://bioconductor.org/packages/release/bioc/html/systemPipeR.html)
 
-##Installation
+Installation
+------------
 1. Download zip file or git clone
 2. From the main folder of piClusterBusteR, run "./piClusterBusteR" for the usage statement
