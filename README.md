@@ -64,7 +64,7 @@ Required Software
 Optional Software:
 
 5. [proTRAC](http://www.smallrnagroup.uni-mainz.de/software.html)
-	- necessary if piRNA cluster definitions aren't already made)
+	- necessary if piRNA cluster definitions aren't already made
 
 R Packages Utilized
 -------------------
