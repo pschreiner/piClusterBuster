@@ -50,9 +50,9 @@ Required Files
 4. Transposable Element Set
 
 Optional Files:
-1. NCBI nucleotide database (ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/nt.gz)
+1. NCBI nucleotide database(ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/nt.gz)
 2. Gene-GO Association File
-	- Made available by the [Gene Ontology Consortium] (http://geneontology.org/page/download-annotations)
+	- Made available by the [Gene Ontology Consortium](http://geneontology.org/page/download-annotations)
 
 Required Software
 -----------------
