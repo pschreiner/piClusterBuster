@@ -56,25 +56,25 @@ Optional Files:
 
 Required Software
 -----------------
-1. [BLAST+] (https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
-2. [CENSOR] (http://www.girinst.org/downloads/software/censor/)
-3. [R software] (https://www.r-project.org/)
-4. [RepeatMasker] (http://www.repeatmasker.org/RMDownload.html)
+1. [BLAST+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
+2. [CENSOR](http://www.girinst.org/downloads/software/censor/)
+3. [R software](https://www.r-project.org/)
+4. [RepeatMasker](http://www.repeatmasker.org/RMDownload.html)
 
 ###Optional Software
-5. [proTRAC] (http://www.smallrnagroup.uni-mainz.de/software.html)
+5. [proTRAC](http://www.smallrnagroup.uni-mainz.de/software.html)
 	- necessary if piRNA cluster definitions aren't already made)
 
 R Packages Utilized
 -------------------
-1. [Biostrings] (https://bioconductor.org/packages/release/bioc/html/Biostrings.html)
-2. [doMC] (https://cran.r-project.org/web/packages/doMC/index.html)
-3. [GenomicRanges] (https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html)
-4. [gProfileR] (https://cran.r-project.org/web/packages/gProfileR/gProfileR.pdf)
-5. [plyr] (https://cran.r-project.org/web/packages/plyr/plyr.pdf)
-6. [qcc] (https://cran.r-project.org/web/packages/qcc/qcc.pdf)
-7. [seqinr] (http://seqinr.r-forge.r-project.org/)
-8. [systemPipeR] (https://bioconductor.org/packages/release/bioc/html/systemPipeR.html)
+1. [Biostrings](https://bioconductor.org/packages/release/bioc/html/Biostrings.html)
+2. [doMC](https://cran.r-project.org/web/packages/doMC/index.html)
+3. [GenomicRanges](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html)
+4. [gProfileR](https://cran.r-project.org/web/packages/gProfileR/gProfileR.pdf)
+5. [plyr](https://cran.r-project.org/web/packages/plyr/plyr.pdf)
+6. [qcc](https://cran.r-project.org/web/packages/qcc/qcc.pdf)
+7. [seqinr](http://seqinr.r-forge.r-project.org/)
+8. [systemPipeR](https://bioconductor.org/packages/release/bioc/html/systemPipeR.html)
 
 Installation
 ------------
