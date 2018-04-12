@@ -21,8 +21,8 @@ Software for Automated Classification and Characterization of piRNA Cluster Loci
 
                         Databases:
                         -x              - character, reference genome
-                        -gndb           - character, Organism-specific Gene Set
-                        -tedb           - character, Organism-specific Transposable Element Set
+                        -gndb           - character, Organism-specific Gene Set (FASTA format)
+                        -tedb           - character, Organism-specific Transposable Element Set (FASTA format)
 
                 Optional:
                         -ncbidb         - character, indicate path to the NCBI nt database or \"NA\" if you would like to have piClusterBuster to retrieve the download
